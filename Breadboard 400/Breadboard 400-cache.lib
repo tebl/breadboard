@@ -1,0 +1,92 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Jumper_SolderJumper_2_Bridged
+#
+DEF Jumper_SolderJumper_2_Bridged JP 0 0 Y N 1 F N
+F0 "JP" 0 80 50 H V C CNN
+F1 "Jumper_SolderJumper_2_Bridged" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Bridged*
+$ENDFPLIST
+DRAW
+A -10 0 40 901 -901 0 1 0 N -10 40 -10 -40
+A -10 0 40 901 -901 0 1 0 F -10 40 -10 -40
+A 10 0 40 -899 899 0 1 0 N 10 -40 10 40
+A 10 0 40 -899 899 0 1 0 F 10 -40 10 40
+S -20 20 20 -20 0 1 0 F
+P 2 0 1 0 -10 40 -10 -40 N
+P 2 0 1 0 10 40 10 -40 N
+X A 1 -150 0 100 R 50 50 1 1 P
+X B 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# breadboard_BB
+#
+DEF breadboard_BB A 0 0 N N 1 F N
+F0 "A" -25 100 31 H I C CNN
+F1 "breadboard_BB" -25 50 31 H I C CNN
+F2 "" -25 -425 50 V I C CNN
+F3 "" -25 -425 50 V I C CNN
+DRAW
+S -25 25 50 -575 0 1 0 N
+S 0 -550 25 -525 0 1 0 f
+S 0 -500 25 -475 0 1 0 f
+S 0 -450 25 -425 0 1 0 f
+S 0 -400 25 -375 0 1 0 f
+S 0 -350 25 -325 0 1 0 f
+S 25 -200 0 -225 0 1 0 f
+S 25 -150 0 -175 0 1 0 f
+S 25 -100 0 -125 0 1 0 f
+S 25 -50 0 -75 0 1 0 f
+S 25 0 0 -25 0 1 0 f
+X VCC 1 25 100 100 D 50 50 1 1 N
+X GND 2 25 -650 100 U 50 50 1 1 N
+ENDDRAW
+ENDDEF
+#
+# breadboard_PWR
+#
+DEF breadboard_PWR A 0 0 N N 1 F N
+F0 "A" 125 75 31 H I C CNN
+F1 "breadboard_PWR" 125 25 31 H I C CNN
+F2 "" 150 -50 50 H I C CNN
+F3 "" 150 -50 50 H I C CNN
+DRAW
+S 0 0 275 -125 0 1 0 N
+S 25 -75 50 -100 0 1 0 f
+S 25 -25 50 -50 0 1 0 f
+S 75 -75 100 -100 0 1 0 f
+S 75 -25 100 -50 0 1 0 f
+S 125 -75 150 -100 0 1 0 f
+S 125 -25 150 -50 0 1 0 f
+S 175 -75 200 -100 0 1 0 f
+S 175 -25 200 -50 0 1 0 f
+S 225 -75 250 -100 0 1 0 f
+S 225 -25 250 -50 0 1 0 f
+P 2 0 1 0 250 -100 300 -100 N
+P 2 0 1 0 250 -25 300 -25 N
+X VCC 1 300 75 100 D 50 50 1 1 W
+X GND 2 300 -200 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library

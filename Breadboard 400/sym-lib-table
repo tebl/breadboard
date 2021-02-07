@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name breadboard)(type Legacy)(uri $KIPRJMOD/../common/library/breadboard.lib)(options "")(descr ""))
+  (lib (name mounting)(type Legacy)(uri $KIPRJMOD/../common/library/mounting.lib)(options "")(descr ""))
+)
