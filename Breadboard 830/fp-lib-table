@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name breadboard)(type KiCad)(uri D:/owncloud/Documents/Projects/Breadboard/common/modules/breadboard.pretty)(options "")(descr ""))
+  (lib (name mounting)(type KiCad)(uri D:/owncloud/Documents/Projects/Breadboard/common/modules/mounting.pretty)(options "")(descr ""))
+)
